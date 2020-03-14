@@ -10,10 +10,11 @@
 >
 > "to stay in one place in the air"
 
+Forked from Hoever, with ios 10.0 compatibility.
+
 Hover is a draggable **floating action button** (FAB) inspired by Apple's session [**Designing Fluid Interfaces**](https://developer.apple.com/wwdc18/803) & Nathan Gitter's [fluid-interfaces](https://github.com/nathangitter/fluid-interfaces). Hover will always stick to the nearest corner to avoid blocking content and allows the user to send it to any other corner with a single swipe.
 
-[![CocoaPods](https://img.shields.io/cocoapods/v/Hover.svg)](https://cocoapods.org/pods/Hover)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![CocoaPods](https://img.shields.io/cocoapods/v/Hover.svg)](https://cocoapods.org/pods/CompatibleHover)
 [![apm](https://img.shields.io/apm/l/vim-mode.svg)](https://github.com/pedrommcarrasco/Hover/blob/master/LICENSE)
 
 # 📦 Installation
@@ -22,7 +23,7 @@ Hover is a draggable **floating action button** (FAB) inspired by Apple's sessio
 Add the following line to your `podfile`:
 
 ```swift
-pod 'Hover'
+pod 'CompatibleHover'
 ```
 And then run the following command in terminal:
 
