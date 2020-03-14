@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name = 'CompatibleHover'
-    spec.version = '1.3.3'
+    spec.version = '1.3.4'
     spec.license = { :type => 'MIT', :file => 'LICENSE' }
     spec.homepage = 'https://github.com/ruilisi/Hover'
     spec.authors = { 'Pedro Carrasco' => 'https://twitter.com/pedrommcarrasco' }
