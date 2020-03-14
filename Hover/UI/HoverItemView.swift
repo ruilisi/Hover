@@ -97,9 +97,11 @@ private extension HoverItemView {
         switch orientation {
         case .leftToRight:
             label.textAlignment = .left
+            label.textColor = .black
             add(arrangedViews: button, label)
         case .rightToLeft:
             label.textAlignment = .right
+            label.textColor = .black
             add(arrangedViews: label, button)
         }
     }

@@ -34,8 +34,8 @@ extension UIView {
     // MARK: Constant
     private enum ShadowConstant {
         static let heightOffset = 0
-        static let opacity: Float = 0.55
-        static let radius: CGFloat = 10
+        static let opacity: Float = 0.3
+        static let radius: CGFloat = 6
     }
     
     // MARK: Functions
