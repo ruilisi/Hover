@@ -13,7 +13,15 @@ public struct HoverItem {
     
     // MARK: Properties
     let title: String?
-    let image: UIImage
+    var image:UIImage
+    public var imagec: UIImage{
+        get{
+            return image
+        }
+        set{
+            image = newValue
+        }
+    }
     let onTap: () -> ()
     
     // MARK: Lifecycle
